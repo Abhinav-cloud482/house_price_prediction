@@ -152,7 +152,6 @@ Measures how well the model explains the variance in the target variable.
 
 This project is open source and available under the MIT License.
 
----
 
 ## Author
 
