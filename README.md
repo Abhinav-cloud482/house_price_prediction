@@ -2,11 +2,10 @@
 Built a Linear Regression model using the California Housing dataset to predict median house prices. Trained and evaluated the model with scikit-learn using MSE and R² metrics, and generated predictions for new housing data based on key property and location features.
 
 
-# California Housing Price Prediction using Linear Regression
+## Housing Price Prediction using Linear Regression
 
 A machine learning project that predicts median house prices using the California Housing dataset and a Linear Regression model from scikit-learn. The project demonstrates the complete machine learning workflow, from data loading and preprocessing to model training, evaluation, and prediction.
 
----
 
 ## Features
 
@@ -19,7 +18,6 @@ A machine learning project that predicts median house prices using the Californi
 - Displays feature coefficients
 - Predicts house prices for new input data
 
----
 
 ## Technologies Used
 
@@ -28,7 +26,6 @@ A machine learning project that predicts median house prices using the Californi
 - NumPy
 - Scikit-learn
 
----
 
 ## Project Structure
 
@@ -37,7 +34,6 @@ A machine learning project that predicts median house prices using the Californi
 ├── README.md
 ```
 
----
 
 ## Dataset
 
@@ -60,39 +56,37 @@ The project uses the **California Housing Dataset** provided by scikit-learn.
 
 - **MedHouseVal** – Median House Value (in hundreds of thousands of dollars)
 
----
 
 ## Installation
 
-Clone the repository:
+Clone the repository :
 
 ```bash
-git clone https://github.com/your-username/california-housing-price-prediction.git
+git clone https://github.com/Abhinav-cloud482/housing-price-prediction.git
 ```
 
-Navigate to the project folder:
+Navigate to the project folder :
 
 ```bash
-cd california-housing-price-prediction
+cd housing-price-prediction
 ```
 
-Install the required packages:
+Install the required packages :
 
 ```bash
 pip install pandas numpy scikit-learn
 ```
 
----
 
 ## Usage
 
-Run the Python script:
+Run the Python script :
 
 ```bash
-python california_housing.py
+python house_price_prediction.py
 ```
 
-The program will:
+The program will :
 
 - Load the dataset
 - Train the Linear Regression model
@@ -100,7 +94,6 @@ The program will:
 - Display model coefficients
 - Predict the price for a sample house
 
----
 
 ## Sample Output
 
@@ -116,7 +109,6 @@ Predicted house price: $265,000.00
 
 *Actual values may vary slightly depending on the library version.*
 
----
 
 ## Machine Learning Workflow
 
@@ -128,7 +120,6 @@ Predicted house price: $265,000.00
 6. Evaluate using MSE and R² Score
 7. Predict house prices for new data
 
----
 
 ## Evaluation Metrics
 
@@ -145,7 +136,6 @@ Measures how well the model explains the variance in the target variable.
 - **1.0** = Perfect prediction
 - **0.0** = Model performs no better than predicting the mean
 
----
 
 ## Future Improvements
 
@@ -157,7 +147,6 @@ Measures how well the model explains the variance in the target variable.
 - Model Serialization using Pickle
 - Interactive Prediction Interface using Streamlit
 
----
 
 ## License
 
@@ -167,6 +156,6 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-**Your Name**
+**Abhinav Dixit**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Abhinav-cloud482
